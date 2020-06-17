@@ -1,0 +1,89 @@
+body {
+  background-color: white;
+  background-image: url("Flames-background.001.jpeg");
+  background-position: center;
+  background-repeat: repeat-x;
+  font-family: Optima, Marcellus, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+img {
+  width: 100%;
+  max-width: 500px;
+}
+
+/* HERE COMES TWO ID SELECTORS: */
+#santa,
+#smile {
+  color: #0f0;
+}
+
+/* Musi, here comes the hint!
+   There is also a third selector type!
+   And its called ...
+   ....
+   ... 	<span style="font-size: 30px; background-color: #3e777a">labore</span>
+					<strong>Flickor</strong> <u>leker</u> <em>två-och-två</em>
+   ..
+   .
+
+   A CLASS SELECTOR!
+*/
+
+.menu a {
+  color: #4A2B8E;
+  font-size: 20px;
+  outline: none;
+	text-decoration: none;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-bottom: 5px;
+}
+
+.menu a:hover,
+.menu-selected {
+  border-bottom: 2px solid #4A2B8E;
+}
+
+.box {
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 600px;
+  border-width: 5px;
+  border-color: #5DC12F;
+  border-style: solid;
+  text-align: left;
+}
+
+.box a {
+  color: #F29FB5;
+  font-weight: bold;
+}
+
+.entry,
+.date {
+  color: #4A2B8E;
+}
+
+.picture {
+  padding: 10px;
+  text-align: center;
+}
+
+.picture img {
+  max-width: 400px;
+}
+
+.kulturbryggan {
+	text-align: center;
+	font-size: 15px;
+	margin: 6px auto;
+}
+
+.fit-kulturbryggan {
+	
+	width: 40%;
+  max-width: 200px;
+  text-align: right;
+}
