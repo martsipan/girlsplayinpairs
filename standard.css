@@ -13,6 +13,13 @@ img {
   max-width: 500px;
 }
 
+hr {
+  border: 0;
+  border-bottom: 5px, solid, #f29fb5;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
 /* HERE COMES TWO ID SELECTORS: */
 #santa,
 #smile {
