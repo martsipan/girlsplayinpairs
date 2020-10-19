@@ -14,8 +14,7 @@ img {
 }
 
 hr {
-  border-bottom: 5px;
-  border-color: #f29fb5;
+  border-bottom: 5px #f29fb5 solid;
   margin-bottom: 40px;
   margin-top: 30px;
 }
