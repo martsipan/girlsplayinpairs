@@ -39,6 +39,7 @@ hr {
 */
 
 .menu a {
+  display: inline-block;
   color: #4A2B8E;
   font-size: 20px;
   outline: none;
@@ -47,6 +48,7 @@ hr {
   margin-right: 80px;
   margin-bottom: 5px;
   padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
 }
 
 .menu a:hover,
