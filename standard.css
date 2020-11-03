@@ -82,6 +82,10 @@ hr {
 }
 
 .picture img {
+  max-width: 400px;
+}
+
+.diary-picture img {
   max-width: 800px;
 }
 
